@@ -1,0 +1,11 @@
+{
+  "name": "imdm-desktop",
+  "version": "0.0.1",
+  "description": "IMDM 桌面客户端程序",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "nubulau",
+  "license": "ISC"
+}
