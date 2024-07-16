@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMDM</title>
     <script src="./plugin/vue/vue.global.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
-<body>
-    <div id="title-bar"></div>
+<body id="app">
+    <div id="title-bar" class="title-bar">
+        <div class="close" @click="closeEvent">
+            <img src="./icon/close.svg" alt="关闭" style="height: 18px; width: 18px;">
+        </div>
+    </div>
     <div id="login-area"></div>
     <div id="more-opration"></div>
+
+    <script src="./JavaScript/index.js"></script>
 </body>
 </html>
