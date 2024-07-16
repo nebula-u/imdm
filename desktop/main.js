@@ -3,9 +3,10 @@ const {app, BrowserWindow} = require('electron')
 function createLoginWindow(params) {
     let mainWin = new BrowserWindow({
         show: false,
-        width: 350,
-        height: 500,
+        width: 320,
+        height: 450,
         frame: false,
+        resizable: false,
         webPreferences:{
             nodeIntegration: true,
             enableRemoteModule: true
