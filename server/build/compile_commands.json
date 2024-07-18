@@ -1,12 +1,14 @@
 [
 {
-  "directory": "/home/nebulau/projects/imdm/server/build",
-  "command": "/usr/bin/c++   -I/home/nebulau/projects/imdm/server/./include -I/home/nebulau/projects/imdm/server/./jsoncpp/json  -g   -o CMakeFiles/server.dir/src/main.cpp.o -c /home/nebulau/projects/imdm/server/src/main.cpp",
-  "file": "/home/nebulau/projects/imdm/server/src/main.cpp"
+  "directory": "C:/Users/moooi/Documents/repository/github/imdm/server/build",
+  "command": "C:\\Users\\moooi\\AppData\\Roaming\\MinGW64\\bin\\c++.exe  @CMakeFiles/server.dir/includes_CXX.rsp -g -o CMakeFiles\\server.dir\\src\\main.cpp.obj -c C:\\Users\\moooi\\Documents\\repository\\github\\imdm\\server\\src\\main.cpp",
+  "file": "C:/Users/moooi/Documents/repository/github/imdm/server/src/main.cpp",
+  "output": "CMakeFiles/server.dir/src/main.cpp.obj"
 },
 {
-  "directory": "/home/nebulau/projects/imdm/server/build",
-  "command": "/usr/bin/c++   -I/home/nebulau/projects/imdm/server/./include -I/home/nebulau/projects/imdm/server/./jsoncpp/json  -g   -o CMakeFiles/server.dir/jsoncpp/jsoncpp.cpp.o -c /home/nebulau/projects/imdm/server/jsoncpp/jsoncpp.cpp",
-  "file": "/home/nebulau/projects/imdm/server/jsoncpp/jsoncpp.cpp"
+  "directory": "C:/Users/moooi/Documents/repository/github/imdm/server/build",
+  "command": "C:\\Users\\moooi\\AppData\\Roaming\\MinGW64\\bin\\c++.exe  @CMakeFiles/server.dir/includes_CXX.rsp -g -o CMakeFiles\\server.dir\\jsoncpp\\jsoncpp.cpp.obj -c C:\\Users\\moooi\\Documents\\repository\\github\\imdm\\server\\jsoncpp\\jsoncpp.cpp",
+  "file": "C:/Users/moooi/Documents/repository/github/imdm/server/jsoncpp/jsoncpp.cpp",
+  "output": "CMakeFiles/server.dir/jsoncpp/jsoncpp.cpp.obj"
 }
 ]

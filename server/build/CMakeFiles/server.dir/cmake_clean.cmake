@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/server.dir/src/main.cpp.o"
-  "CMakeFiles/server.dir/jsoncpp/jsoncpp.cpp.o"
+  "CMakeFiles/server.dir/jsoncpp/jsoncpp.cpp.obj"
+  "CMakeFiles/server.dir/jsoncpp/jsoncpp.cpp.obj.d"
+  "CMakeFiles/server.dir/src/main.cpp.obj"
+  "CMakeFiles/server.dir/src/main.cpp.obj.d"
+  "libserver.dll.a"
+  "server.exe"
+  "server.exe.manifest"
   "server.pdb"
-  "server"
 )
 
 # Per-language clean rules from dependency scanning.
