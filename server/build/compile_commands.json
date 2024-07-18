@@ -1,7 +1,12 @@
 [
 {
   "directory": "/home/nebulau/projects/imdm/server/build",
-  "command": "/usr/bin/c++   -I/home/nebulau/projects/imdm/server/./include  -g   -o CMakeFiles/server.dir/src/main.cpp.o -c /home/nebulau/projects/imdm/server/src/main.cpp",
+  "command": "/usr/bin/c++   -I/home/nebulau/projects/imdm/server/./include -I/home/nebulau/projects/imdm/server/./jsoncpp/json  -g   -o CMakeFiles/server.dir/src/main.cpp.o -c /home/nebulau/projects/imdm/server/src/main.cpp",
   "file": "/home/nebulau/projects/imdm/server/src/main.cpp"
+},
+{
+  "directory": "/home/nebulau/projects/imdm/server/build",
+  "command": "/usr/bin/c++   -I/home/nebulau/projects/imdm/server/./include -I/home/nebulau/projects/imdm/server/./jsoncpp/json  -g   -o CMakeFiles/server.dir/jsoncpp/jsoncpp.cpp.o -c /home/nebulau/projects/imdm/server/jsoncpp/jsoncpp.cpp",
+  "file": "/home/nebulau/projects/imdm/server/jsoncpp/jsoncpp.cpp"
 }
 ]

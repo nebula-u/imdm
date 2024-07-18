@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nebulau/projects/imdm/server/./include 
+CXX_INCLUDES = -I/home/nebulau/projects/imdm/server/./include -I/home/nebulau/projects/imdm/server/./jsoncpp/json 
 

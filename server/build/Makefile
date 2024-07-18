@@ -123,6 +123,33 @@ server/fast:
 	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
 .PHONY : server/fast
 
+jsoncpp/jsoncpp.o: jsoncpp/jsoncpp.cpp.o
+
+.PHONY : jsoncpp/jsoncpp.o
+
+# target to build an object file
+jsoncpp/jsoncpp.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/jsoncpp/jsoncpp.cpp.o
+.PHONY : jsoncpp/jsoncpp.cpp.o
+
+jsoncpp/jsoncpp.i: jsoncpp/jsoncpp.cpp.i
+
+.PHONY : jsoncpp/jsoncpp.i
+
+# target to preprocess a source file
+jsoncpp/jsoncpp.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/jsoncpp/jsoncpp.cpp.i
+.PHONY : jsoncpp/jsoncpp.cpp.i
+
+jsoncpp/jsoncpp.s: jsoncpp/jsoncpp.cpp.s
+
+.PHONY : jsoncpp/jsoncpp.s
+
+# target to generate assembly for a file
+jsoncpp/jsoncpp.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/jsoncpp/jsoncpp.cpp.s
+.PHONY : jsoncpp/jsoncpp.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... server"
 	@echo "... edit_cache"
+	@echo "... jsoncpp/jsoncpp.o"
+	@echo "... jsoncpp/jsoncpp.i"
+	@echo "... jsoncpp/jsoncpp.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/server.dir/src/main.cpp.o  -o server  -L/home/nebulau/projects/imdm/server/./lib 
+/usr/bin/c++  -g   CMakeFiles/server.dir/src/main.cpp.o CMakeFiles/server.dir/jsoncpp/jsoncpp.cpp.o  -o server  -L/home/nebulau/projects/imdm/server/./lib 
