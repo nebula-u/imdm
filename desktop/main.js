@@ -6,7 +6,7 @@ function createLoginWindow(params) {
         width: 320,
         height: 450,
         frame: false,
-        resizable: false,
+        // resizable: false,
         webPreferences:{
             nodeIntegration: true,
             enableRemoteModule: true

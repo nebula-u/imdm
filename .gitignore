@@ -1,3 +1,4 @@
 .vscode/
-server/.vscode/
-server/build/
+/server/.vscode/
+/server/build/*
+/desktop/config.json
