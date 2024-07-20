@@ -4,7 +4,7 @@
   "description": "IMDM 桌面客户端程序",
   "main": "main.js",
   "scripts": {
-    "test": "electron ."
+    "test": "chcp 65001 && electron ."
   },
   "author": "nubulau",
   "license": "ISC"

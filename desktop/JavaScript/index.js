@@ -2,28 +2,6 @@ const { remote } = require('electron')
 const { createApp } = Vue
 const net = require('net')
 
-const client = new net.Socket();
-
-var connected = false
-
-client.connect(port, host, () => {
-    connected = true
-})
-
-client.on('data', (data) => {
-    let jsonObject = JSON.parse(data);
-    console.log(jsonObject.password)
-})
-
-client.on('error', (err) => {
-    console.log('error: ' + err.message)
-})
-
-client.on('close', () => {
-    console.log('与服务器的连接已经关闭')
-    connected = false
-})
-
 let clientToServer001 = {
     operation: 0,
     uid: '',
